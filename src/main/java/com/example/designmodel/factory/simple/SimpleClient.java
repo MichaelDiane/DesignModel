@@ -9,6 +9,6 @@ package com.example.designmodel.factory.simple;
 public class SimpleClient {
     public  static  void main(String[] args){
         SimpleFactory  simpleFactory= new SimpleFactory();
-        simpleFactory.bookName("com.example.designmodel.factory.simple.GoBook").makeBook();
+        simpleFactory.bookName(GoBook.class).makeBook();
     }
 }
