@@ -1,4 +1,4 @@
-package com.example.designmodel.factory;
+package com.example.designmodel.factory.abstractfactory.one;
 /**
  *@DATE Mar 15, 2020
  *@AUTHOR michael

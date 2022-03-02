@@ -1,4 +1,4 @@
-package com.example.designmodel.factory;
+package com.example.designmodel.factory.abstractfactory.one;
 /**
  *@DATE Mar 15, 2020
  *@AUTHOR michael
@@ -7,12 +7,12 @@ package com.example.designmodel.factory;
 public  class FoodFactory extends AbstractFactory{
 
 	@Override
-	Food createFood() {
+	AbstractFood createFood() {
 		return new Dumping();
 	}
 
 	@Override
-	Soup createSoup() {
+	AbstractSoup createSoup() {
 		return new BeefSoup();
 	}
 
