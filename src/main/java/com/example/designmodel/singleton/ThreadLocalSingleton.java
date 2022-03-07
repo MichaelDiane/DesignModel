@@ -9,7 +9,7 @@ package com.example.designmodel.singleton;
 public class ThreadLocalSingleton {
 
     private ThreadLocalSingleton(){};
-    
+
     private static final ThreadLocal<ThreadLocalSingleton> threadLocalInstance = new ThreadLocal<ThreadLocalSingleton>(){
         @Override
         protected ThreadLocalSingleton initialValue() {
