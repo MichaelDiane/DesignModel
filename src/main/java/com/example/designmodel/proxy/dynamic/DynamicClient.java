@@ -3,7 +3,7 @@ package com.example.designmodel.proxy.dynamic;
 /**
  * @author xiongda
  * @ClassName DynamicClient
- * @Description TODO
+ * @Description 代理模式-调用端
  * @createTime 2022/3/10 11:12
  * jdk动态代理与cglib动态代理对比:
      *1.jdk采用读取接口的信息,cglib是覆盖父类方法  两者目的都是 生成一个新的类,去实现增强逻辑代码的功能
