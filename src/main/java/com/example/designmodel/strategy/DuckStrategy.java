@@ -7,6 +7,16 @@ import java.util.Arrays;
  *
  * @author michael
  * @Date Mar 10, 2020
+ * 适用场景:
+	 * 1. 针对同一类型问题,有多重处理方式,每一种都能独立解决问题
+	 * 2.需要自由切换算法的场景
+	 * 3.需要屏蔽算法规则的场景
+ * 优点:
+	 * 1.避免使用多重if else等语句
+	 * 2.策略模式可以提高算法的保密性和安全性
+ * 缺点:
+	 * 1.客户端必须知道所有的策略,并且自行决定使用哪个策略
+	 * 2.代码会产生非常多的策略们,增加维护成本
  */
 @SuppressWarnings("all")
 public class DuckStrategy {
