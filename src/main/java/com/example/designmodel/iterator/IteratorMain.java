@@ -7,6 +7,7 @@ package com.example.designmodel.iterator;
  * @createTime 2022-03-31 9:40
  */
 public class IteratorMain {
+
     public static void main(String[] args) {
 
         Course course = new Course("Java 架构");
@@ -26,6 +27,6 @@ public class IteratorMain {
             System.out.println("["+iterator.next().getName()+"]");
         }
 
-
     }
+
 }
