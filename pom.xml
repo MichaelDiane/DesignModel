@@ -36,6 +36,7 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -47,7 +48,12 @@
             <artifactId>hutool-all</artifactId>
             <version>5.2.0</version>
         </dependency>
-
+        <!--引入spring的状态机statemachine-->
+        <dependency>
+            <groupId>org.springframework.statemachine</groupId>
+            <artifactId>spring-statemachine-core</artifactId>
+            <version>3.0.1</version>
+        </dependency>
     </dependencies>
 
     <build>
